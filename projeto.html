@@ -1,414 +1,424 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosso Sistema - VidraLink</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nosso Sistema - TechGlass Solutions</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="navbar">
-            <div class="nav-container">
-                <div class="nav-logo">
-                    <i class="fas fa-link"></i>
-                    <span>VidraLink</span>
-                </div>
-                <ul class="nav-menu">
-                    <li><a href="index.html" class="nav-link">Início</a></li>
-                    <li><a href="sobre.html" class="nav-link">Sobre Nós</a></li>
-                    <li><a href="projeto.html" class="nav-link active">Nosso Sistema</a></li>
-                    <li><a href="contato.html" class="nav-link">Contato</a></li>
-                </ul>
-                <div class="nav-controls">
-                    <button class="theme-toggle" id="themeToggle">
-                        <i class="fas fa-moon"></i>
-                    </button>
-                    <div class="hamburger" id="hamburger">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <!-- Page Header -->
-    <section class="page-header">
-        <div class="container">
-            <h1>Plataforma VidraLink</h1>
-            <p>Descubra como nossa solução revoluciona a conexão entre vidraçarias e instaladores</p>
+  <!-- Header -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <i class="fas fa-link"></i>
+          <span>TechGlass Solutions</span>
         </div>
-    </section>
-
-    <!-- Problem Solution -->
-    <section class="problem-solution">
-        <div class="container">
-            <div class="ps-grid">
-                <div class="ps-card problem">
-                    <div class="ps-icon">
-                        <i class="fas fa-exclamation-triangle"></i>
-                    </div>
-                    <h3>O Problema</h3>
-                    <p>As vidraçarias enfrentam dificuldades para gerenciar a demanda flutuante por instalações. Contratar uma equipe grande é custoso nos períodos de baixa, enquanto a falta de instaladores na alta gera perda de vendas e clientes insatisfeitos.</p>
-                    <ul>
-                        <li>Demanda sazonal imprevisível</li>
-                        <li>Custos fixos elevados com equipe própria</li>
-                        <li>Dificuldade em encontrar profissionais qualificados</li>
-                        <li>Falta de transparência na contratação</li>
-                    </ul>
-                </div>
-                
-                <div class="ps-card solution">
-                    <div class="ps-icon">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <h3>Nossa Solução</h3>
-                    <p>A VidraLink é uma plataforma B2B que conecta vidraçarias a uma rede de instaladores autônomos verificados, permitindo contratação sob demanda com total segurança e qualidade.</p>
-                    <ul>
-                        <li>Rede de profissionais verificados</li>
-                        <li>Contratação flexível e rápida</li>
-                        <li>Sistema de avaliação transparente</li>
-                        <li>Pagamentos seguros e automatizados</li>
-                    </ul>
-                </div>
-            </div>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Início</a></li>
+          <li><a href="sobre.html" class="nav-link">Sobre Nós</a></li>
+          <li><a href="projeto.html" class="nav-link active">Nosso Sistema</a></li>
+          <li><a href="contato.html" class="nav-link">Contato</a></li>
+        </ul>
+        <div class="nav-controls">
+          <button class="theme-toggle" id="themeToggle">
+            <i class="fas fa-moon"></i>
+          </button>
+          <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
-    </section>
+      </div>
+    </nav>
+  </header>
 
-    <!-- Client Case Study -->
-    <section class="case-study">
-        <div class="container">
-            <h2 class="section-title">Caso de Sucesso: VidroForte</h2>
-            <div class="case-content">
-                <div class="case-info">
-                    <div class="client-card">
-                        <div class="client-logo">
-                            <i class="fas fa-building"></i>
-                        </div>
-                        <div class="client-details">
-                            <h4>VidroForte Comércio de Vidros Ltda.</h4>
-                            <p><strong>Ramo:</strong> Comércio e distribuição de vidros</p>
-                            <p><strong>Localização:</strong> São Paulo, SP</p>
-                            <p><strong>Funcionários:</strong> 25 colaboradores</p>
-                        </div>
-                    </div>
-                    
-                    <div class="case-challenge">
-                        <h4>Desafio</h4>
-                        <p>A VidroForte é uma empresa de médio porte que comercializa vidros temperados, laminados e comuns. Eles vendem produtos como boxes de banheiro, espelhos e janelas, mas não possuem equipe própria suficiente para atender toda a demanda de instalação.</p>
-                        
-                        <p>Durante períodos de alta demanda, como final do ano ou entrega de grandes empreendimentos, a empresa não conseguia atender todos os clientes com agilidade, resultando em perda de vendas e insatisfação.</p>
-                    </div>
-                </div>
-                
-                <div class="case-results">
-                    <h4>Resultados com a VidraLink</h4>
-                    <div class="results-grid">
-                        <div class="result-item">
-                            <div class="result-number">85%</div>
-                            <div class="result-label">Redução no tempo de contratação</div>
-                        </div>
-                        <div class="result-item">
-                            <div class="result-number">40%</div>
-                            <div class="result-label">Aumento na capacidade de atendimento</div>
-                        </div>
-                        <div class="result-item">
-                            <div class="result-number">95%</div>
-                            <div class="result-label">Satisfação dos clientes</div>
-                        </div>
-                        <div class="result-item">
-                            <div class="result-number">30%</div>
-                            <div class="result-label">Redução nos custos operacionais</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Plataforma TechGlass Solutions</h1>
+      <p>Descubra como nossa solução revoluciona a conexão entre vidraçarias e instaladores</p>
+    </div>
+  </section>
+
+  <!-- Problem Solution -->
+  <section class="problem-solution">
+    <div class="container">
+      <div class="ps-grid">
+        <div class="ps-card problem">
+          <div class="ps-icon">
+            <i class="fas fa-exclamation-triangle"></i>
+          </div>
+          <h3>O Problema</h3>
+          <p>As vidraçarias enfrentam dificuldades para gerenciar a demanda flutuante por instalações. Contratar uma
+            equipe grande é custoso nos períodos de baixa, enquanto a falta de instaladores na alta gera perda de vendas
+            e clientes insatisfeitos.</p>
+          <ul>
+            <li>Demanda sazonal imprevisível</li>
+            <li>Custos fixos elevados com equipe própria</li>
+            <li>Dificuldade em encontrar profissionais qualificados</li>
+            <li>Falta de transparência na contratação</li>
+          </ul>
         </div>
-    </section>
 
-    <!-- How It Works -->
-    <section class="how-it-works">
-        <div class="container">
-            <h2 class="section-title">Como Funciona</h2>
-            <div class="user-types">
-                <div class="user-type">
-                    <h3><i class="fas fa-building"></i> Para Vidraçarias</h3>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-content">
-                                <h4>Cadastro da Empresa</h4>
-                                <p>Crie seu perfil empresarial com informações da vidraçaria e área de atuação.</p>
-                            </div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-content">
-                                <h4>Publique o Serviço</h4>
-                                <p>Descreva o trabalho de instalação, local, prazo e valor oferecido.</p>
-                            </div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-content">
-                                <h4>Receba Propostas</h4>
-                                <p>Instaladores qualificados se candidatam ao seu projeto.</p>
-                            </div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-content">
-                                <h4>Contrate e Gerencie</h4>
-                                <p>Escolha o profissional ideal e acompanhe o progresso do trabalho.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="user-type">
-                    <h3><i class="fas fa-tools"></i> Para Instaladores</h3>
-                    <div class="steps">
-                        <div class="step">
-                            <div class="step-number">1</div>
-                            <div class="step-content">
-                                <h4>Perfil Profissional</h4>
-                                <p>Crie seu portfólio com fotos de trabalhos, certificações e especialidades.</p>
-                            </div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">2</div>
-                            <div class="step-content">
-                                <h4>Busque Oportunidades</h4>
-                                <p>Navegue pelos projetos disponíveis e filtre por localização e tipo.</p>
-                            </div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">3</div>
-                            <div class="step-content">
-                                <h4>Envie Propostas</h4>
-                                <p>Candidate-se aos projetos de seu interesse com sua proposta de valor.</p>
-                            </div>
-                        </div>
-                        <div class="step">
-                            <div class="step-number">4</div>
-                            <div class="step-content">
-                                <h4>Execute e Receba</h4>
-                                <p>Realize o trabalho com qualidade e receba o pagamento de forma segura.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="ps-card solution">
+          <div class="ps-icon">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <h3>Nossa Solução</h3>
+          <p>A TechGlass Solutions é uma plataforma B2B que conecta vidraçarias a uma rede de instaladores autônomos
+            verificados, permitindo contratação sob demanda com total segurança e qualidade.</p>
+          <ul>
+            <li>Rede de profissionais verificados</li>
+            <li>Contratação flexível e rápida</li>
+            <li>Sistema de avaliação transparente</li>
+            <li>Pagamentos seguros e automatizados</li>
+          </ul>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Features Detail -->
-    <section class="features-detail">
-        <div class="container">
-            <h2 class="section-title">Funcionalidades da Plataforma</h2>
-            <div class="features-tabs">
-                <div class="tab-buttons">
-                    <button class="tab-btn active" data-tab="vidracarias">Para Vidraçarias</button>
-                    <button class="tab-btn" data-tab="instaladores">Para Instaladores</button>
-                    <button class="tab-btn" data-tab="sistema">Sistema</button>
-                </div>
-                
-                <div class="tab-content active" id="vidracarias">
-                    <div class="features-grid">
-                        <div class="feature-item">
-                            <i class="fas fa-plus-circle"></i>
-                            <h4>Publicação de Serviços</h4>
-                            <p>Crie anúncios detalhados para seus projetos de instalação com fotos, especificações e prazos.</p>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-search"></i>
-                            <h4>Busca de Profissionais</h4>
-                            <p>Encontre instaladores por localização, especialidade, avaliação e disponibilidade.</p>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-tasks"></i>
-                            <h4>Gerenciamento de Projetos</h4>
-                            <p>Painel completo para acompanhar todos os trabalhos em andamento e histórico.</p>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-star"></i>
-                            <h4>Sistema de Avaliação</h4>
-                            <p>Avalie os profissionais após cada trabalho e consulte avaliações de outros clientes.</p>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-comments"></i>
-                            <h4>Comunicação Direta</h4>
-                            <p>Chat integrado para comunicação direta com os instaladores durante o projeto.</p>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-chart-bar"></i>
-                            <h4>Relatórios e Analytics</h4>
-                            <p>Acompanhe métricas de desempenho, custos e satisfação dos seus projetos.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="tab-content" id="instaladores">
-                    <div class="features-grid">
-                        <div class="feature-item">
-                            <i class="fas fa-user-circle"></i>
-                            <h4>Perfil Profissional</h4>
-                            <p>Crie um portfólio completo com fotos dos seus trabalhos, certificações e especialidades.</p>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-briefcase"></i>
-                            <h4>Oportunidades de Trabalho</h4>
-                            <p>Acesse um mural atualizado com projetos disponíveis na sua região.</p>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-paper-plane"></i>
-                            <h4>Envio de Propostas</h4>
-                            <p>Candidate-se aos projetos com propostas personalizadas e competitivas.</p>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-calendar-check"></i>
-                            <h4>Agenda Integrada</h4>
-                            <p>Gerencie sua agenda de trabalhos e disponibilidade de forma organizada.</p>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-credit-card"></i>
-                            <h4>Pagamento Seguro</h4>
-                            <p>Receba seus pagamentos de forma segura e automatizada após a conclusão dos trabalhos.</p>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-trophy"></i>
-                            <h4>Sistema de Reputação</h4>
-                            <p>Construa sua reputação através de avaliações positivas e conquiste mais clientes.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="tab-content" id="sistema">
-                    <div class="features-grid">
-                        <div class="feature-item">
-                            <i class="fas fa-shield-alt"></i>
-                            <h4>Verificação de Identidade</h4>
-                            <p>Todos os usuários passam por verificação de identidade e documentação.</p>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-lock"></i>
-                            <h4>Pagamentos Seguros</h4>
-                            <p>Sistema de escrow que protege tanto vidraçarias quanto instaladores.</p>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-headset"></i>
-                            <h4>Suporte 24/7</h4>
-                            <p>Equipe de suporte disponível para resolver qualquer questão ou conflito.</p>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-mobile-alt"></i>
-                            <h4>App Mobile</h4>
-                            <p>Aplicativo móvel para gerenciar projetos e comunicação em qualquer lugar.</p>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-file-contract"></i>
-                            <h4>Contratos Digitais</h4>
-                            <p>Geração automática de contratos digitais para formalizar os acordos.</p>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-cloud"></i>
-                            <h4>Backup na Nuvem</h4>
-                            <p>Todos os dados e documentos são armazenados com segurança na nuvem.</p>
-                        </div>
-                    </div>
-                </div>
+  <!-- Client Case Study -->
+  <section class="case-study">
+    <div class="container">
+      <h2 class="section-title">Caso de Sucesso: VidroForte</h2>
+      <div class="case-content">
+        <div class="case-info">
+          <div class="client-card">
+            <div class="client-logo">
+              <i class="fas fa-building"></i>
             </div>
+            <div class="client-details">
+              <h4>VidroForte Comércio de Vidros Ltda.</h4>
+              <p><strong>Ramo:</strong> Comércio e distribuição de vidros</p>
+              <p><strong>Localização:</strong> São Paulo, SP</p>
+              <p><strong>Funcionários:</strong> 25 colaboradores</p>
+            </div>
+          </div>
+
+          <div class="case-challenge">
+            <h4>Desafio</h4>
+            <p>A VidroForte é uma empresa de médio porte que comercializa vidros temperados, laminados e comuns. Eles
+              vendem produtos como boxes de banheiro, espelhos e janelas, mas não possuem equipe própria suficiente para
+              atender toda a demanda de instalação.</p>
+
+            <p>Durante períodos de alta demanda, como final do ano ou entrega de grandes empreendimentos, a empresa não
+              conseguia atender todos os clientes com agilidade, resultando em perda de vendas e insatisfação.</p>
+          </div>
         </div>
-    </section>
 
-    <!-- Demo Section -->
-    <section class="demo">
-        <div class="container">
-            <h2 class="section-title">Demonstração da Plataforma</h2>
-            <div class="demo-content">
-                <div class="demo-video">
-                    <div class="video-placeholder">
-                        <i class="fas fa-play-circle"></i>
-                        <p>Clique para ver a demonstração</p>
-                    </div>
-                </div>
-                <div class="demo-info">
-                    <h3>Veja a VidraLink em Ação</h3>
-                    <p>Assista a uma demonstração completa de como nossa plataforma funciona na prática. Veja como é simples publicar um projeto, encontrar profissionais qualificados e gerenciar todo o processo de instalação.</p>
-                    
-                    <div class="demo-features">
-                        <div class="demo-feature">
-                            <i class="fas fa-check"></i>
-                            <span>Interface intuitiva e fácil de usar</span>
-                        </div>
-                        <div class="demo-feature">
-                            <i class="fas fa-check"></i>
-                            <span>Processo de contratação simplificado</span>
-                        </div>
-                        <div class="demo-feature">
-                            <i class="fas fa-check"></i>
-                            <span>Comunicação eficiente entre as partes</span>
-                        </div>
-                        <div class="demo-feature">
-                            <i class="fas fa-check"></i>
-                            <span>Sistema de pagamento integrado</span>
-                        </div>
-                    </div>
-                    
-                    <a href="contato.html" class="btn btn-primary">
-                        <i class="fas fa-rocket"></i>
-                        Solicitar Demonstração Personalizada
-                    </a>
-                </div>
+        <div class="case-results">
+          <h4>Resultados com a TechGlass Solutions</h4>
+          <div class="results-grid">
+            <div class="result-item">
+              <div class="result-number">85%</div>
+              <div class="result-label">Redução no tempo de contratação</div>
             </div>
+            <div class="result-item">
+              <div class="result-number">40%</div>
+              <div class="result-label">Aumento na capacidade de atendimento</div>
+            </div>
+            <div class="result-item">
+              <div class="result-number">95%</div>
+              <div class="result-label">Satisfação dos clientes</div>
+            </div>
+            <div class="result-item">
+              <div class="result-number">30%</div>
+              <div class="result-label">Redução nos custos operacionais</div>
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <div class="footer-logo">
-                        <i class="fas fa-link"></i>
-                        <span>VidraLink</span>
-                    </div>
-                    <p>Conectando vidraçarias a instaladores qualificados desde 2025.</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
-                <div class="footer-section">
-                    <h4>Links Rápidos</h4>
-                    <ul>
-                        <li><a href="index.html">Início</a></li>
-                        <li><a href="sobre.html">Sobre Nós</a></li>
-                        <li><a href="projeto.html">Nosso Sistema</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Contato</h4>
-                    <div class="contact-info">
-                        <p><i class="fas fa-map-marker-alt"></i> Av. Paulista, 1234, São Paulo - SP</p>
-                        <p><i class="fas fa-phone"></i> (11) 4002-8922</p>
-                        <p><i class="fas fa-envelope"></i> contato@vidralink.com.br</p>
-                    </div>
-                </div>
+  <!-- How It Works -->
+  <section class="how-it-works">
+    <div class="container">
+      <h2 class="section-title">Como Funciona</h2>
+      <div class="user-types">
+        <div class="user-type">
+          <h3><i class="fas fa-building"></i> Para Vidraçarias</h3>
+          <div class="steps">
+            <div class="step">
+              <div class="step-number">1</div>
+              <div class="step-content">
+                <h4>Cadastro da Empresa</h4>
+                <p>Crie seu perfil empresarial com informações da vidraçaria e área de atuação.</p>
+              </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 VidraLink. Todos os direitos reservados.</p>
+            <div class="step">
+              <div class="step-number">2</div>
+              <div class="step-content">
+                <h4>Publique o Serviço</h4>
+                <p>Descreva o trabalho de instalação, local, prazo e valor oferecido.</p>
+              </div>
             </div>
+            <div class="step">
+              <div class="step-number">3</div>
+              <div class="step-content">
+                <h4>Receba Propostas</h4>
+                <p>Instaladores qualificados se candidatam ao seu projeto.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">4</div>
+              <div class="step-content">
+                <h4>Contrate e Gerencie</h4>
+                <p>Escolha o profissional ideal e acompanhe o progresso do trabalho.</p>
+              </div>
+            </div>
+          </div>
         </div>
-    </footer>
 
-    <script src="script.js"></script>
+        <div class="user-type">
+          <h3><i class="fas fa-tools"></i> Para Instaladores</h3>
+          <div class="steps">
+            <div class="step">
+              <div class="step-number">1</div>
+              <div class="step-content">
+                <h4>Perfil Profissional</h4>
+                <p>Crie seu portfólio com fotos de trabalhos, certificações e especialidades.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">2</div>
+              <div class="step-content">
+                <h4>Busque Oportunidades</h4>
+                <p>Navegue pelos projetos disponíveis e filtre por localização e tipo.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">3</div>
+              <div class="step-content">
+                <h4>Envie Propostas</h4>
+                <p>Candidate-se aos projetos de seu interesse com sua proposta de valor.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">4</div>
+              <div class="step-content">
+                <h4>Execute e Receba</h4>
+                <p>Realize o trabalho com qualidade e receba o pagamento de forma segura.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Detail -->
+  <section class="features-detail">
+    <div class="container">
+      <h2 class="section-title">Funcionalidades da Plataforma</h2>
+      <div class="features-tabs">
+        <div class="tab-buttons">
+          <button class="tab-btn active" data-tab="vidracarias">Para Vidraçarias</button>
+          <button class="tab-btn" data-tab="instaladores">Para Instaladores</button>
+          <button class="tab-btn" data-tab="sistema">Sistema</button>
+        </div>
+
+        <div class="tab-content active" id="vidracarias">
+          <div class="features-grid">
+            <div class="feature-item">
+              <i class="fas fa-plus-circle"></i>
+              <h4>Publicação de Serviços</h4>
+              <p>Crie anúncios detalhados para seus projetos de instalação com fotos, especificações e prazos.</p>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-search"></i>
+              <h4>Busca de Profissionais</h4>
+              <p>Encontre instaladores por localização, especialidade, avaliação e disponibilidade.</p>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-tasks"></i>
+              <h4>Gerenciamento de Projetos</h4>
+              <p>Painel completo para acompanhar todos os trabalhos em andamento e histórico.</p>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-star"></i>
+              <h4>Sistema de Avaliação</h4>
+              <p>Avalie os profissionais após cada trabalho e consulte avaliações de outros clientes.</p>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-comments"></i>
+              <h4>Comunicação Direta</h4>
+              <p>Chat integrado para comunicação direta com os instaladores durante o projeto.</p>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-chart-bar"></i>
+              <h4>Relatórios e Analytics</h4>
+              <p>Acompanhe métricas de desempenho, custos e satisfação dos seus projetos.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="instaladores">
+          <div class="features-grid">
+            <div class="feature-item">
+              <i class="fas fa-user-circle"></i>
+              <h4>Perfil Profissional</h4>
+              <p>Crie um portfólio completo com fotos dos seus trabalhos, certificações e especialidades.</p>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-briefcase"></i>
+              <h4>Oportunidades de Trabalho</h4>
+              <p>Acesse um mural atualizado com projetos disponíveis na sua região.</p>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-paper-plane"></i>
+              <h4>Envio de Propostas</h4>
+              <p>Candidate-se aos projetos com propostas personalizadas e competitivas.</p>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-calendar-check"></i>
+              <h4>Agenda Integrada</h4>
+              <p>Gerencie sua agenda de trabalhos e disponibilidade de forma organizada.</p>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-credit-card"></i>
+              <h4>Pagamento Seguro</h4>
+              <p>Receba seus pagamentos de forma segura e automatizada após a conclusão dos trabalhos.</p>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-trophy"></i>
+              <h4>Sistema de Reputação</h4>
+              <p>Construa sua reputação através de avaliações positivas e conquiste mais clientes.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="sistema">
+          <div class="features-grid">
+            <div class="feature-item">
+              <i class="fas fa-shield-alt"></i>
+              <h4>Verificação de Identidade</h4>
+              <p>Todos os usuários passam por verificação de identidade e documentação.</p>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-lock"></i>
+              <h4>Pagamentos Seguros</h4>
+              <p>Sistema de escrow que protege tanto vidraçarias quanto instaladores.</p>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-headset"></i>
+              <h4>Suporte 24/7</h4>
+              <p>Equipe de suporte disponível para resolver qualquer questão ou conflito.</p>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-mobile-alt"></i>
+              <h4>App Mobile</h4>
+              <p>Aplicativo móvel para gerenciar projetos e comunicação em qualquer lugar.</p>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-file-contract"></i>
+              <h4>Contratos Digitais</h4>
+              <p>Geração automática de contratos digitais para formalizar os acordos.</p>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-cloud"></i>
+              <h4>Backup na Nuvem</h4>
+              <p>Todos os dados e documentos são armazenados com segurança na nuvem.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Demo Section -->
+  <section class="demo">
+    <div class="container">
+      <h2 class="section-title">Demonstração da Plataforma</h2>
+      <div class="demo-content">
+        <div class="demo-video">
+          <div class="video-placeholder">
+            <i class="fas fa-play-circle"></i>
+            <p>Clique para ver a demonstração</p>
+          </div>
+        </div>
+        <div class="demo-info">
+          <h3>Veja a TechGlass Solutions em Ação</h3>
+          <p>Assista a uma demonstração completa de como nossa plataforma funciona na prática. Veja como é simples
+            publicar um projeto, encontrar profissionais qualificados e gerenciar todo o processo de instalação.</p>
+
+          <div class="demo-features">
+            <div class="demo-feature">
+              <i class="fas fa-check"></i>
+              <span>Interface intuitiva e fácil de usar</span>
+            </div>
+            <div class="demo-feature">
+              <i class="fas fa-check"></i>
+              <span>Processo de contratação simplificado</span>
+            </div>
+            <div class="demo-feature">
+              <i class="fas fa-check"></i>
+              <span>Comunicação eficiente entre as partes</span>
+            </div>
+            <div class="demo-feature">
+              <i class="fas fa-check"></i>
+              <span>Sistema de pagamento integrado</span>
+            </div>
+          </div>
+
+          <a href="contato.html" class="btn btn-primary">
+            <i class="fas fa-rocket"></i>
+            Solicitar Demonstração Personalizada
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-logo">
+            <i class="fas fa-link"></i>
+            <span>TechGlass Solutions</span>
+          </div>
+          <p>Conectando vidraçarias a instaladores qualificados desde 2025.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre Nós</a></li>
+            <li><a href="projeto.html">Nosso Sistema</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contato</h4>
+          <div class="contact-info">
+            <p><i class="fas fa-map-marker-alt"></i> Av. Paulista, 1234, São Paulo - SP</p>
+            <p><i class="fas fa-phone"></i> (11) 4002-8922</p>
+            <p><i class="fas fa-envelope"></i> contato@techglasssolutions.com.br</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 TechGlass Solutions. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>

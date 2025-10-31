@@ -1,339 +1,350 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato - VidraLink</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - TechGlass Solutions</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="navbar">
-            <div class="nav-container">
-                <div class="nav-logo">
-                    <i class="fas fa-link"></i>
-                    <span>VidraLink</span>
-                </div>
-                <ul class="nav-menu">
-                    <li><a href="index.html" class="nav-link">Início</a></li>
-                    <li><a href="sobre.html" class="nav-link">Sobre Nós</a></li>
-                    <li><a href="projeto.html" class="nav-link">Nosso Sistema</a></li>
-                    <li><a href="contato.html" class="nav-link active">Contato</a></li>
-                </ul>
-                <div class="nav-controls">
-                    <button class="theme-toggle" id="themeToggle">
-                        <i class="fas fa-moon"></i>
-                    </button>
-                    <div class="hamburger" id="hamburger">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <!-- Page Header -->
-    <section class="page-header">
-        <div class="container">
-            <h1>Entre em Contato</h1>
-            <p>Estamos aqui para ajudar você a revolucionar seu negócio no mercado de vidraçaria</p>
+  <!-- Header -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <i class="fas fa-link"></i>
+          <span>TechGlass Solutions</span>
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact">
-        <div class="container">
-            <div class="contact-grid">
-                <!-- Contact Form -->
-                <div class="contact-form-section">
-                    <h2>Envie sua Mensagem</h2>
-                    <p>Preencha o formulário abaixo e nossa equipe entrará em contato em até 24 horas.</p>
-                    
-                    <form class="contact-form" id="contactForm">
-                        <div class="form-group">
-                            <label for="nome">Nome Completo *</label>
-                            <input type="text" id="nome" name="nome" required>
-                        </div>
-                        
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="email">E-mail *</label>
-                                <input type="email" id="email" name="email" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="telefone">Telefone</label>
-                                <input type="tel" id="telefone" name="telefone">
-                            </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="empresa">Empresa</label>
-                            <input type="text" id="empresa" name="empresa">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="tipo">Tipo de Interesse *</label>
-                            <select id="tipo" name="tipo" required>
-                                <option value="">Selecione uma opção</option>
-                                <option value="vidracaria">Sou uma vidraçaria interessada</option>
-                                <option value="instalador">Sou um instalador interessado</option>
-                                <option value="investidor">Sou um investidor</option>
-                                <option value="parceria">Interesse em parceria</option>
-                                <option value="imprensa">Imprensa</option>
-                                <option value="outro">Outro</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="mensagem">Mensagem *</label>
-                            <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Conte-nos mais sobre seu interesse na VidraLink..."></textarea>
-                        </div>
-                        
-                        <div class="form-group checkbox-group">
-                            <label class="checkbox-label">
-                                <input type="checkbox" id="newsletter" name="newsletter">
-                                <span class="checkmark"></span>
-                                Quero receber novidades e atualizações da VidraLink
-                            </label>
-                        </div>
-                        
-                        <div class="form-group checkbox-group">
-                            <label class="checkbox-label">
-                                <input type="checkbox" id="termos" name="termos" required>
-                                <span class="checkmark"></span>
-                                Concordo com os termos de uso e política de privacidade *
-                            </label>
-                        </div>
-                        
-                        <button type="submit" class="btn btn-primary">
-                            <i class="fas fa-paper-plane"></i>
-                            Enviar Mensagem
-                        </button>
-                    </form>
-                </div>
-                
-                <!-- Contact Info -->
-                <div class="contact-info-section">
-                    <h2>Informações de Contato</h2>
-                    
-                    <div class="contact-methods">
-                        <div class="contact-method">
-                            <div class="method-icon">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
-                            <div class="method-info">
-                                <h4>Endereço</h4>
-                                <p>Av. Paulista, 1234, 5º andar<br>
-                                Bela Vista, São Paulo - SP<br>
-                                CEP: 01310-100</p>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-method">
-                            <div class="method-icon">
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <div class="method-info">
-                                <h4>Telefone</h4>
-                                <p>(11) 4002-8922</p>
-                                <small>Segunda a Sexta, 9h às 18h</small>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-method">
-                            <div class="method-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="method-info">
-                                <h4>E-mail</h4>
-                                <p>contato@vidralink.com.br</p>
-                                <small>Resposta em até 24 horas</small>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-method">
-                            <div class="method-icon">
-                                <i class="fab fa-whatsapp"></i>
-                            </div>
-                            <div class="method-info">
-                                <h4>WhatsApp</h4>
-                                <p>(11) 99999-9999</p>
-                                <small>Atendimento comercial</small>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="social-section">
-                        <h4>Siga-nos nas Redes Sociais</h4>
-                        <div class="social-links-large">
-                            <a href="#" class="social-link">
-                                <i class="fab fa-facebook"></i>
-                                <span>Facebook</span>
-                            </a>
-                            <a href="#" class="social-link">
-                                <i class="fab fa-instagram"></i>
-                                <span>Instagram</span>
-                            </a>
-                            <a href="#" class="social-link">
-                                <i class="fab fa-linkedin"></i>
-                                <span>LinkedIn</span>
-                            </a>
-                            <a href="#" class="social-link">
-                                <i class="fab fa-twitter"></i>
-                                <span>Twitter</span>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="business-hours">
-                        <h4>Horário de Atendimento</h4>
-                        <div class="hours-list">
-                            <div class="hour-item">
-                                <span>Segunda a Sexta</span>
-                                <span>9h às 18h</span>
-                            </div>
-                            <div class="hour-item">
-                                <span>Sábado</span>
-                                <span>9h às 14h</span>
-                            </div>
-                            <div class="hour-item">
-                                <span>Domingo</span>
-                                <span>Fechado</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Início</a></li>
+          <li><a href="sobre.html" class="nav-link">Sobre Nós</a></li>
+          <li><a href="projeto.html" class="nav-link">Nosso Sistema</a></li>
+          <li><a href="contato.html" class="nav-link active">Contato</a></li>
+        </ul>
+        <div class="nav-controls">
+          <button class="theme-toggle" id="themeToggle">
+            <i class="fas fa-moon"></i>
+          </button>
+          <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
-    </section>
+      </div>
+    </nav>
+  </header>
 
-    <!-- Map Section -->
-    <section class="map-section">
-        <div class="container">
-            <h2>Nossa Localização</h2>
-            <div class="map-container">
-                <div class="map-placeholder">
-                    <i class="fas fa-map-marked-alt"></i>
-                    <p>Av. Paulista, 1234 - São Paulo, SP</p>
-                    <small>Clique para abrir no Google Maps</small>
-                </div>
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Entre em Contato</h1>
+      <p>Estamos aqui para ajudar você a revolucionar seu negócio no mercado de vidraçaria</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Contact Form -->
+        <div class="contact-form-section">
+          <h2>Envie sua Mensagem</h2>
+          <p>Preencha o formulário abaixo e nossa equipe entrará em contato em até 24 horas.</p>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="nome">Nome Completo *</label>
+              <input type="text" id="nome" name="nome" required>
             </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="empresa">Empresa</label>
+              <input type="text" id="empresa" name="empresa">
+            </div>
+
+            <div class="form-group">
+              <label for="tipo">Tipo de Interesse *</label>
+              <select id="tipo" name="tipo" required>
+                <option value="">Selecione uma opção</option>
+                <option value="vidracaria">Sou uma vidraçaria interessada</option>
+                <option value="instalador">Sou um instalador interessado</option>
+                <option value="investidor">Sou um investidor</option>
+                <option value="parceria">Interesse em parceria</option>
+                <option value="imprensa">Imprensa</option>
+                <option value="outro">Outro</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="mensagem">Mensagem *</label>
+              <textarea id="mensagem" name="mensagem" rows="5" required
+                placeholder="Conte-nos mais sobre seu interesse na TechGlass Solutions..."></textarea>
+            </div>
+
+            <div class="form-group checkbox-group">
+              <label class="checkbox-label">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <span class="checkmark"></span>
+                Quero receber novidades e atualizações da TechGlass Solutions
+              </label>
+            </div>
+
+            <div class="form-group checkbox-group">
+              <label class="checkbox-label">
+                <input type="checkbox" id="termos" name="termos" required>
+                <span class="checkmark"></span>
+                Concordo com os termos de uso e política de privacidade *
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+              <i class="fas fa-paper-plane"></i>
+              Enviar Mensagem
+            </button>
+          </form>
         </div>
-    </section>
 
-    <!-- FAQ Section -->
-    <section class="faq">
-        <div class="container">
-            <h2 class="section-title">Perguntas Frequentes</h2>
-            <div class="faq-grid">
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <h4>Como funciona o cadastro na plataforma?</h4>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>O cadastro é simples e gratuito. Vidraçarias e instaladores podem se registrar fornecendo informações básicas da empresa ou perfil profissional. Após a verificação dos documentos, o acesso à plataforma é liberado.</p>
-                    </div>
-                </div>
-                
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <h4>Qual é o custo para usar a VidraLink?</h4>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Cobramos uma pequena taxa apenas quando uma contratação é efetivada através da plataforma. Não há mensalidades ou custos fixos. O cadastro e navegação são completamente gratuitos.</p>
-                    </div>
-                </div>
-                
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <h4>Como é garantida a qualidade dos instaladores?</h4>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Todos os instaladores passam por verificação de documentos, referências e avaliação de trabalhos anteriores. Além disso, mantemos um sistema de avaliações contínuas dos clientes.</p>
-                    </div>
-                </div>
-                
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <h4>E se houver problemas com o serviço prestado?</h4>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Temos uma equipe de suporte dedicada para mediar conflitos e garantir a satisfação de ambas as partes. Também oferecemos um sistema de garantia para os trabalhos realizados.</p>
-                    </div>
-                </div>
-                
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <h4>Posso usar a plataforma em outras cidades?</h4>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Atualmente operamos na Grande São Paulo, mas temos planos de expansão para outras capitais em 2025. Entre em contato para saber sobre a disponibilidade na sua região.</p>
-                    </div>
-                </div>
-                
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <h4>Como funciona o sistema de pagamentos?</h4>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Utilizamos um sistema de escrow seguro. O pagamento fica retido até a conclusão satisfatória do trabalho, garantindo segurança tanto para a vidraçaria quanto para o instalador.</p>
-                    </div>
-                </div>
+        <!-- Contact Info -->
+        <div class="contact-info-section">
+          <h2>Informações de Contato</h2>
+
+          <div class="contact-methods">
+            <div class="contact-method">
+              <div class="method-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="method-info">
+                <h4>Endereço</h4>
+                <p>Av. Paulista, 1234, 5º andar<br>
+                  Bela Vista, São Paulo - SP<br>
+                  CEP: 01310-100</p>
+              </div>
             </div>
+
+            <div class="contact-method">
+              <div class="method-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="method-info">
+                <h4>Telefone</h4>
+                <p>(11) 4002-8922</p>
+                <small>Segunda a Sexta, 9h às 18h</small>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="method-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="method-info">
+                <h4>E-mail</h4>
+                <p>contato@techglasssolutions.com.br</p>
+                <small>Resposta em até 24 horas</small>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="method-icon">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+              <div class="method-info">
+                <h4>WhatsApp</h4>
+                <p>(11) 99999-9999</p>
+                <small>Atendimento comercial</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-section">
+            <h4>Siga-nos nas Redes Sociais</h4>
+            <div class="social-links-large">
+              <a href="#" class="social-link">
+                <i class="fab fa-facebook"></i>
+                <span>Facebook</span>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a href="#" class="social-link">
+                <i class="fab fa-twitter"></i>
+                <span>Twitter</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="business-hours">
+            <h4>Horário de Atendimento</h4>
+            <div class="hours-list">
+              <div class="hour-item">
+                <span>Segunda a Sexta</span>
+                <span>9h às 18h</span>
+              </div>
+              <div class="hour-item">
+                <span>Sábado</span>
+                <span>9h às 14h</span>
+              </div>
+              <div class="hour-item">
+                <span>Domingo</span>
+                <span>Fechado</span>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <div class="footer-logo">
-                        <i class="fas fa-link"></i>
-                        <span>VidraLink</span>
-                    </div>
-                    <p>Conectando vidraçarias a instaladores qualificados desde 2025.</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
-                <div class="footer-section">
-                    <h4>Links Rápidos</h4>
-                    <ul>
-                        <li><a href="index.html">Início</a></li>
-                        <li><a href="sobre.html">Sobre Nós</a></li>
-                        <li><a href="projeto.html">Nosso Sistema</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Contato</h4>
-                    <div class="contact-info">
-                        <p><i class="fas fa-map-marker-alt"></i> Av. Paulista, 1234, São Paulo - SP</p>
-                        <p><i class="fas fa-phone"></i> (11) 4002-8922</p>
-                        <p><i class="fas fa-envelope"></i> contato@vidralink.com.br</p>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 VidraLink. Todos os direitos reservados.</p>
-            </div>
+  <!-- Map Section -->
+  <section class="map-section">
+    <div class="container">
+      <h2>Nossa Localização</h2>
+      <div class="map-container">
+        <div class="map-placeholder">
+          <i class="fas fa-map-marked-alt"></i>
+          <p>Av. Paulista, 1234 - São Paulo, SP</p>
+          <small>Clique para abrir no Google Maps</small>
         </div>
-    </footer>
+      </div>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
+  <!-- FAQ Section -->
+  <section class="faq">
+    <div class="container">
+      <h2 class="section-title">Perguntas Frequentes</h2>
+      <div class="faq-grid">
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>Como funciona o cadastro na plataforma?</h4>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>O cadastro é simples e gratuito. Vidraçarias e instaladores podem se registrar fornecendo informações
+              básicas da empresa ou perfil profissional. Após a verificação dos documentos, o acesso à plataforma é
+              liberado.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>Qual é o custo para usar a TechGlass Solutions?</h4>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Cobramos uma pequena taxa apenas quando uma contratação é efetivada através da plataforma. Não há
+              mensalidades ou custos fixos. O cadastro e navegação são completamente gratuitos.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>Como é garantida a qualidade dos instaladores?</h4>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Todos os instaladores passam por verificação de documentos, referências e avaliação de trabalhos
+              anteriores. Além disso, mantemos um sistema de avaliações contínuas dos clientes.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>E se houver problemas com o serviço prestado?</h4>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Temos uma equipe de suporte dedicada para mediar conflitos e garantir a satisfação de ambas as partes.
+              Também oferecemos um sistema de garantia para os trabalhos realizados.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>Posso usar a plataforma em outras cidades?</h4>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Atualmente operamos na Grande São Paulo, mas temos planos de expansão para outras capitais em 2025. Entre
+              em contato para saber sobre a disponibilidade na sua região.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>Como funciona o sistema de pagamentos?</h4>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Utilizamos um sistema de escrow seguro. O pagamento fica retido até a conclusão satisfatória do trabalho,
+              garantindo segurança tanto para a vidraçaria quanto para o instalador.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-logo">
+            <i class="fas fa-link"></i>
+            <span>TechGlass Solutions</span>
+          </div>
+          <p>Conectando vidraçarias a instaladores qualificados desde 2025.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre Nós</a></li>
+            <li><a href="projeto.html">Nosso Sistema</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contato</h4>
+          <div class="contact-info">
+            <p><i class="fas fa-map-marker-alt"></i> Av. Paulista, 1234, São Paulo - SP</p>
+            <p><i class="fas fa-phone"></i> (11) 4002-8922</p>
+            <p><i class="fas fa-envelope"></i> contato@gechglasssolutions.com.br</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 TechGlass Solutions. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
